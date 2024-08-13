@@ -1,2 +1,7 @@
-package org.example;public interface Sort {
+package org.example;
+
+import java.util.ArrayList;
+
+public interface Sort {
+    public void sort();
 }
