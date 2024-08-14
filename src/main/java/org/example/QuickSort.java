@@ -3,10 +3,9 @@ package org.example;
 import java.util.Arrays;
 
 public class QuickSort {
-    private int[] array;
 
-    public QuickSort(int[] array) {
-        this.array = array;
+    public QuickSort() {
+
     }
 
     public static void swap(int[] array, int i, int j) {

@@ -47,7 +47,7 @@ public class SearchPattern {
         // Collect the results
         for (int i = 0; i < n; i++) {
             if (Z[i] == pattern.length()) {
-                result.add(i - pattern.length() + 1);
+                result.add(i - pattern.length());
             }
         }
 

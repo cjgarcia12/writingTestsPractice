@@ -20,13 +20,13 @@ public class Main {
     public static void quickSort() {
         System.out.println("Example 1");
         int[] quickArray = {4, 1, 3, 9, 7};
-        QuickSort quickSort = new QuickSort(quickArray);
+        QuickSort quickSort = new QuickSort();
         String finalQuickSort = quickSort.sort(quickArray, 0, quickArray.length - 1);
         System.out.println(finalQuickSort);
 
         System.out.println("\nExample 2");
         int[] quickArray1 = {2, 1, 6, 10, 4, 1, 3, 9, 7};
-        QuickSort quickSort1 = new QuickSort(quickArray1);
+        QuickSort quickSort1 = new QuickSort();
         String finalQuickSort1 = quickSort1.sort(quickArray1, 0, quickArray1.length - 1);
         System.out.println(finalQuickSort1);
     }
@@ -71,5 +71,8 @@ public class Main {
 
         System.out.println("\nCount Sort");
         countSort();
+
+        System.out.println("\nSeach Sort");
+        seachPattern();
     }
 }
